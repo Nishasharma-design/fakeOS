@@ -1,91 +1,90 @@
 body {
-    
-    margin: 0;
+  margin: 0;
   height: 100vh;
-    background: url('OS img.jpg') no-repeat center center ;
-    background-size: cover;
+  background: url("OS img.jpg") no-repeat center center;
+  background-size: cover;
 }
 
-.desktop_icon img{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 80px;
-    height: 80px;
-    margin: 10px;
+.desktop_icon img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
 }
 
 #what_is_the_time_now {
-    margin: 10px;
+  margin: 10px;
 }
 
 .icons_on_my_desktop {
-    display: flex;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-  }
-  .icons_on_my_desktop .desktop-icons {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
 
-
+.icons_on_my_desktop .desktop-icons {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgb(164, 154, 146);
-    padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    display: none;
-  }
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(164, 154, 146);
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  display: none;
+}
 
 .modal.active {
-    display: block;
+  display: block;
 }
 
 .menu-item {
-    margin: 10px;
+  margin: 10px;
 }
 
 .facebook-icon img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 80px;
-    height: 80px;
-    margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
 }
 
 .menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1000;
-  }
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
 
-  .menu-item {
-    display: none;
-    padding: 10px;
-    background-color: #555;
-    margin-top: 5px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.menu-item {
+  display: none;
+  padding: 10px;
+  background-color: #555;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-  .menu-item:hover {
-    background-color: #666;
-  }
+.menu-item:hover {
+  background-color: #666;
+}
 
-  .menu:hover .menu-item {
-    display: block;
-  }
-  
+.menu:hover .menu-item {
+  display: block;
+}
+
+/*# sourceMappingURL=styles.css.map */
